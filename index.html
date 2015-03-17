@@ -34,16 +34,16 @@
             <h3>
                 <a id="About-this-Encryptor" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>About this Encryptor
             </h3>
-            <p>I think most of friends have some files you want to protect, your contact list, passwords, some family photos and videos.  I also have. I used a free file protection application to handle this issue until they upgraded the app and the new version cannot decrypt the files encrypted by their previous version properly. That is ridiculous and I was pissed off. What I need is just a simple encryptor. So I decided to write a small encryptor for my own. And here is it:</p>
+            <p>I think the majority of people have some files they want to protect, such as their contact lists, passwords or family photos and videos. I do as well. I used a free file protection application to handle the issue until the makers upgraded the app. Unfortunately, the newest version cannot properly decrypt the files encrypted by the previous version. I found the change to be ridiculous and took it in my own hands to write a small encryptor for my own. Here is it: </p>
 
             <h3>
                 <a id="File-Encryptor" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>File Encryptor
             </h3>
-            <p>The tool looks like following. You can simply choose any kind of files you want. based on my test, it handles big files such as HD movie quite well</p>
+            <p>The tool is as follows. You can simply choose any kind of files you want. Based on my test, it can handle larger files such as HD movie quite well. </p>
             <hr />
             <img src="images/1.PNG" alt="encryptor" width="400" height="300" />
             <hr />
-            <p>After you choose file and input password twice correctly, the "Encrypt" button will be enabled. Click button, the tool starts to encrypt like following:</p>
+            <p>After you choose the file and input the password twice correctly, the "Encrypt" button will be enabled. Click the button and the tool will start to encrypt as shown:</p>
             <p>The decryption operation is the same</p>
             <hr />
             <img src="images/2.PNG" alt="encryptor" width="400" height="300" />
@@ -57,8 +57,8 @@
             <h3>
                 <a id="File-Encryptor" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Syntactic sugar from .Net
             </h3>
-            <p>Since it is my playground, I kinda overused some cool features in C# just for fun. Some new C# developers may be interested in it.</p>
-            <p>I made encrypt and decrypt methods as extension method fro FileInfo. Extension methods make the sweet LINQ possible. If you are interested in it, please go check <a href="https://msdn.microsoft.com/en-CA/library/bb383977.aspx" class="user-mention">Extension Methods (C# Programming Guide)</a> </p>
+            <p>Since it is my playground, I kind of overused some cool features in C# just for fun. New C# developers may be interested in it.</p>
+            <p>I made encrypt and decrypt methods as extension methods for FileInfo. Extension methods make the sweet LINQ possible. If you are interested in it, please go check <a href="https://msdn.microsoft.com/en-CA/library/bb383977.aspx" class="user-mention">Extension Methods (C# Programming Guide)</a> </p>
             <pre><code>public static IEnumerable<double> EncryptFile(this FileInfo fileInfo, string password)
 //when you call this method
 var target = new FileInfo(fileName);
